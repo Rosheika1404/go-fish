@@ -14,15 +14,19 @@ const comp = {
 }
 
 
-function updateScoreDisplay()
-{
-    compScoreDisplay.innerHTML = `Computer: ${comp.score}`;
+const updateScoreDisplay = () =>{
+    {
+        compScoreDisplay.innerHTML = `Computer: ${comp.score}`;
+    }
 }
 
 
-function resetGuessOpts()
-{
-    comp.guessOptions = comp.updatedOptions;
+
+const resetGuessOpts = () =>{
+    {
+        comp.guessOptions = comp.updatedOptions;
+    }
 }
+
 
 export default comp;
